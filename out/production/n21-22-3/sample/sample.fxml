@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="278.0" prefWidth="704.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <AnchorPane fx:id="scnd" layoutY="30.0" prefHeight="99.0" prefWidth="54.0">
+         <children>
+            <Button fx:id="newbutton" layoutY="-1.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="66.0" style="-fx-background-color: black;" text="new" textFill="WHITE" />
+            <Button fx:id="openbutton" layoutY="29.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="66.0" style="-fx-background-color: black;" text="open" textFill="WHITE" />
+            <Button fx:id="savebtn" layoutY="59.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="66.0" style="-fx-background-color: black;" text="save" textFill="WHITE" />
+            <Button fx:id="exitbtn" layoutY="89.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="66.0" style="-fx-background-color: black;" text="exit" textFill="WHITE" />
+         </children>
+      </AnchorPane>
+      <Button fx:id="file" mnemonicParsing="false" prefHeight="30.0" prefWidth="66.0" style="-fx-background-color: black;" text="File" textFill="WHITE" />
+      <Label fx:id="outputt" layoutX="20.0" layoutY="240.0" prefHeight="24.0" prefWidth="132.0" />
+   </children>
+</AnchorPane>
